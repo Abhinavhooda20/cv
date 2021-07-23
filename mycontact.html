@@ -1,14 +1,31 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>My Contact</title>
-  </head>
-  <body>
-    <h2>MY Contact Details</h2>
-    <ul>
-      <li><b>Email:</b><em>Abhinavhooda14822204@gmail.com</em></li>
-      <li><b>Address:</b><em>Suncity,Rohtak</em></li>
-    </ul>
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <title>My Contact</title>
+</head>
+
+<body>
+  <h2>MY Contact Details</h2>
+  <ul>
+    <li><b>Email:</b><em>Abhinavhooda14822204@gmail.com</em></li>
+    <li><b>Address:</b><em>Suncity,Rohtak</em></li>
+  </ul>
+
+  <form  action="mailto:abhinavhooda14822204@gmail.com" method="post" enctype="text/plain">
+    <label>Yourn Name:</label>
+    <input type="text" name="yourname" value=""><br><br>
+    <label for="">Enter Your Email:</label>
+    <input type="email" name="youremail" value=""><br><br>
+    <label for="">Your Date of Birth</label>
+    <input type="date" name="dateofbirth" value=""><br><br>
+    <label for="">Your Intrest in Web developing</label>
+    <input type="range" name="yourintrest" value=""><br>
+    <label for="">Your Message</label>
+    <textarea name="you message" rows="10" cols="30"></textarea>
+    <input type="submit" name="" >
+  </form>
+</body>
+
 </html>
